@@ -185,4 +185,6 @@ gem 'bootsnap', require: false
 gem "select2-rails"
 gem "cocoon"
 gem "fast-polylines"
+
 gem 'unicorn'
+gem 'daemons'
