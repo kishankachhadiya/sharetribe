@@ -2011,7 +2011,7 @@ en:
       is: is
       are: are
       what_do_you_need: "What are you looking for?"
-      post_new_listing: "Post a new listing"
+      post_new_listing: "post a new listing"
       are_offering: offer
       add_news_item: "Add an article"
       lend_rent_help_carpool: "Sell, lend, help, share rides"
@@ -2132,7 +2132,7 @@ en:
       admin: Admin
       go_to_your_profile_page: Profile
       hi: Hi
-      login: "Log in"
+      login: "Login"
       logout: "Log out"
       notifications: Notifications
       requests: "Friend requests"
@@ -3142,7 +3142,7 @@ en:
       manage_listings: "My listings"
       settings: Settings
       logout: "Log out"
-      login: "Log in"
+      login: "Login"
       signup: "Sign up"
       admin_dashboard: "Admin panel"
       language: Language

@@ -16,6 +16,14 @@
     <% case s["kind"] %>
     <% when "hero" %>
       <%= render partial: "hero", locals: {section_id: section_id, s: s, community_context: community_context} %>
+
+    <% when "info-1-type" %>
+      <%= render partial: "browse_by_type", locals: {section_id: section_id, s: s, second_wo_background: second_wo_background} %>
+    <% when "info-2-what-is" %>
+      <%= render partial: "what_is", locals: {section_id: section_id, s: s, community_context: community_context} %>
+    <% when "info-3-latest" %>
+      <%= render partial: "latest_listing", locals: {section_id: section_id, s: s, second_wo_background: second_wo_background} %>
+
     <% when "footer" %>
       <%= render partial: "footer", locals: {section_id: section_id, s: s} %>
     <% when "info" %>
