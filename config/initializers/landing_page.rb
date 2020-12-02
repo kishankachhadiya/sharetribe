@@ -47,8 +47,8 @@ module CustomLandingPage
     {
       "id": "info-1-type",
       "kind": "info-1-type",
-       "title": "Categories section",
-        "paragraph": "PLEASE NOTE: This section is NOT ENABLED by default. To enable this section, replace category IDs with real IDs and add the section to the 'composition'. Categories section can contain 3 to 7 featured categories. Each category should have a background image.",
+       "title": "Find quality consultants",
+        "paragraph": "Fundraising, Advancement Services, Public Relations & Marketing, Boards & Governance, Financial Management, Diversity Equity& Inclusion, Leadership Development, Advocacy",
         "button_color": {"type": "marketplace_data", "id": "primary_color"},
         "button_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"},
         "button_title": "All categories",
@@ -384,7 +384,8 @@ module CustomLandingPage
       "social": [
         {"service": "facebook", "url": "https://www.facebook.com/Sharetribe/"},
         {"service": "twitter", "url": "https://twitter.com/sharetribe"},
-        {"service": "instagram", "url": "https://www.instagram.com/"}
+        {"service": "instagram", "url": "https://www.instagram.com/"},
+        {"service": "linkedin", "url": "https://www.linkedin.com/"}
       ],
       "copyright": "Copyright Marketplace Ltd 2016"
     }
