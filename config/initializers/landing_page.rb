@@ -31,7 +31,7 @@ module CustomLandingPage
       "variation": {"type": "marketplace_data", "id": "search_type"},
       "title": {"type": "marketplace_data", "id": "slogan"},
       "subtitle": {"type": "marketplace_data", "id": "description"},
-      "background_image": {"type": "assets", "id": "default_hero_background"},
+      "background_image": {"type": "assets", "id": "banner_background"},
       "background_image_variation": "dark",
       "search_button": {"type": "translation", "id": "search_button"},
       "search_path": {"type": "path", "id": "search"},
@@ -57,7 +57,31 @@ module CustomLandingPage
         "categories": [
             {
                 "category": { "type": "category", "id": 1 },
-                "background_image": {"type": "assets", "id": "default_hero_background"}
+                "background_image": {"type": "assets", "id": "adv_background"}
+            },
+            {
+                "category": { "type": "category", "id": 1 },
+                "background_image": {"type": "assets", "id": "advocacy_background"}
+            },
+            {
+                "category": { "type": "category", "id": 2 },
+                "background_image": {"type": "assets", "id": "diversity_background"}
+            },
+            {
+                "category": { "type": "category", "id": 3 },
+                "background_image": {"type": "assets", "id": "finance_background"}
+            },
+            {
+                "category": { "type": "category", "id": 4 },
+                "background_image": {"type": "assets", "id": "marketing_background"}
+            },
+            {
+                "category": { "type": "category", "id": 5 },
+                "background_image": {"type": "assets", "id": "leadership_background"}
+            },
+            {
+                "category": { "type": "category", "id": 6 },
+                "background_image": {"type": "assets", "id": "fundraising_background"}
             }
         ]
     },
@@ -400,7 +424,15 @@ module CustomLandingPage
   ],
 
   "assets": [
-    { "id": "default_hero_background", "src": "default_hero_background.jpg", "content_type": "image/jpeg" }
+    { "id": "default_hero_background", "src": "default_hero_background.jpg", "content_type": "image/jpeg" },
+    { "id": "fundraising_background", "src": "/category_images/Fundraising_cat_pic_1.jpg", "content_type": "image/jpeg" },
+    { "id": "adv_background", "src": "category_images/Adv_services_cat_pic_1.jpg", "content_type": "image/jpeg" },
+    { "id": "advocacy_background", "src": "category_images/Advocacy_cat_pic_1.jpg", "content_type": "image/jpeg" },
+    { "id": "diversity_background", "src": "category_images/Diversity_cat_pic_1.jpg", "content_type": "image/jpeg" },
+    { "id": "finance_background", "src": "category_images/Finance_cat_pic_1.jpg", "content_type": "image/jpeg" },
+    { "id": "leadership_background", "src": "category_images/Leadership_Development_cat_pic_1.jpg", "content_type": "image/jpeg" },
+    { "id": "marketing_background", "src": "category_images/Marketing_cat_pic_1.png", "content_type": "image/jpeg" },
+    { "id": "banner_background", "src": "damian-zalesk.jpg", "content_type": "image/jpeg" }
   ]
 }
 JSON

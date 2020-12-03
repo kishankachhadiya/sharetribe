@@ -202,6 +202,33 @@ $content-padding: 36px;
     margin: 0px;
   }
 }
+.info__column--four-columns {
+  @extend .info__column;
+
+  @media #{$mobile-landscape} {
+    max-width: 310px;
+    margin-right: 24px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+
+  @media #{$tablet} {
+    max-width: 340px;
+    margin-right: 36px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+
+  @media #{$desktop} {
+    max-width: 340px;
+    margin-right: 50px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}
 
 .info__column--three-columns {
   @extend .info__column;
@@ -276,6 +303,7 @@ $content-padding: 36px;
 }
 
 .info__column-title {
+  font-weight: 600 !important;
   color: #525961;
   @include typography__medium;
 

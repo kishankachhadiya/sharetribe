@@ -20,14 +20,14 @@ section_style_class = hero_style_variations[s["background_image_variation"]]
   .hero__signup-button,
   .hero__signup-button:active
   {
-    background-color: rgb(<%= s["search_button_color"]["value"].join(",") %>);
+    background-color: rgb(0,32,128);
   }
 
   .hero__search-button:hover,
   .hero__search-button:focus,
   .hero__signup-button:hover,
   .hero__signup-button:focus {
-    background-color: rgb(<%= s["search_button_color_hover"]["value"].join(",") %>);
+    background-color: rgb(0,0,128);
   }
 <% end %>
 
@@ -40,14 +40,6 @@ section_style_class = hero_style_variations[s["background_image_variation"]]
       <% if community_context[:show_description] %>
         <h3 class="hero__subtitle"><%= render partial: "prevent_widows", locals: { text: s["subtitle"]["value"]} %></h3>
       <% end %>
-      <div style="display: block; margin-bottom: 30px">
-        <label style="color: white">Search:</label>
-        <select class="form-control">
-          <option>Browse talent</option>
-          <option>Shop by project</option>
-          <option>Explore jobs</option>
-        </select>
-      </div>
       <% cta_button_type = s["cta_button_type"] %>
       <% button_title = cta_button_type == LandingPageVersion::Section::Hero::BUTTON_TYPE_DEFAULT && s["button_title"].try(:[], "value") %>
       <% case cta_button_type %>

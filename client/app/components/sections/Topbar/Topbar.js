@@ -289,7 +289,7 @@ class Topbar extends Component {
           ...this.props.newListingButton,
           className: css.topbarListingButton,
           url: newListingRoute,
-          customColor: marketplaceColor1,
+          customColor: 'rgb(0,32,128)',
         }) :
       null,
     ]);
