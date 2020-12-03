@@ -81,8 +81,29 @@ $tablet--hero: "(min-width: 480px) and (max-width: 767px)";
 .hero_custom_btn{
   border-radius: 22px;
   overflow: hidden;
-  padding: 5px 15px;
-  font-size: 20px;
+  padding: 5px 20px;
+  background: rgb(0,32,128);
+  color: #fff;
+  box-shadow: none;
+  border: none;
+  font-size: 16px;
+}
+.hero_custom_btn-outline {
+  border: 2px solid rgb(0, 32, 128) !important;
+  color: rgba(0,32,128,1);
+  margin-top: 15px;
+}
+
+
+.hero_custom_btn-outline:hover {
+  background: rgba(0,32,128,1);
+}
+.hero_custom_link{
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  padding: 14px 30px;
+  border-radius: 22px;
 }
 
 .hero__subtitle {
