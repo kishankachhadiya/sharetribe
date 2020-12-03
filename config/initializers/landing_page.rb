@@ -60,27 +60,27 @@ module CustomLandingPage
                 "background_image": {"type": "assets", "id": "adv_background"}
             },
             {
-                "category": { "type": "category", "id": 1 },
+                "category": { "type": "category", "id": 2 },
                 "background_image": {"type": "assets", "id": "advocacy_background"}
             },
             {
-                "category": { "type": "category", "id": 2 },
+                "category": { "type": "category", "id": 3 },
                 "background_image": {"type": "assets", "id": "diversity_background"}
             },
             {
-                "category": { "type": "category", "id": 3 },
+                "category": { "type": "category", "id": 4 },
                 "background_image": {"type": "assets", "id": "finance_background"}
             },
             {
-                "category": { "type": "category", "id": 4 },
+                "category": { "type": "category", "id": 5 },
                 "background_image": {"type": "assets", "id": "marketing_background"}
             },
             {
-                "category": { "type": "category", "id": 5 },
+                "category": { "type": "category", "id": 6 },
                 "background_image": {"type": "assets", "id": "leadership_background"}
             },
             {
-                "category": { "type": "category", "id": 6 },
+                "category": { "type": "category", "id": 7 },
                 "background_image": {"type": "assets", "id": "fundraising_background"}
             }
         ]
