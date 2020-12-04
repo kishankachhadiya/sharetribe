@@ -1417,9 +1417,9 @@ en-NZ:
       paid: "Payment successful"
       pending_external:
         paypal:
-          multicurrency: "We couldn't process the PayPal payment because your PayPal account has not been set up to receive money in %{currency}. Go to %{paypal_url} and log in to your account to manually accept or reject the payment."
+          multicurrency: "We couldn't process the PayPal payment because your PayPal account has not been set up to receive money in %{currency}. Go to %{paypal_url} and login to your account to manually accept or reject the payment."
           verify: "You cannot accept this transaction because you haven't verified your PayPal account. Go to %{paypal_url} to verify your account."
-          intl: "We couldn't process the PayPal payment because your PayPal account does not have a withdrawal mechanism. Go to %{paypal_url} and log in to your account to manually accept or reject the payment."
+          intl: "We couldn't process the PayPal payment because your PayPal account does not have a withdrawal mechanism. Go to %{paypal_url} and login to your account to manually accept or reject the payment."
       waiting_for_current_user_to_deliver_listing: "Waiting for you to fulfill the order for %{listing_title}"
       waiting_for_listing_author_to_deliver_listing: "Waiting for %{listing_author_name} to fulfill the order for %{listing_title}"
       request_accepted: Accepted
@@ -1441,7 +1441,7 @@ en-NZ:
         paypal:
           multicurrency: "Waiting for you to accept the PayPal payment"
           intl: "Waiting for you to accept the PayPal payment"
-          unknown_reason: "Payment is pending. Log in to your PayPal account to see more details."
+          unknown_reason: "Payment is pending. Login to your PayPal account to see more details."
           verify: "Waiting for you to verify your PayPal account"
       stripe:
         waiting_confirmation_from_requester: ~
@@ -1955,7 +1955,7 @@ en-NZ:
     profile: Profile
     manage_listings: "Manage listings"
     invite: "Invite new members"
-    login: "Log in"
+    login: "Login"
     signup: "Sign up"
     menu: Menu
   homepage:
@@ -1979,7 +1979,7 @@ en-NZ:
       item_request_list: "tools, sports equipment, costumes, camping equipment"
       items_to_offer: "Goods to lend: "
       items_to_request: "Goods to borrow: "
-      log_in: "log in!"
+      log_in: "login!"
       no_offers_visible_unless_logged_in: "No item, service or rideshare offers visible to users who are not logged in."
       no_open_offers_currently: "No open item, service or rideshare offers."
       no_open_requests_currently: "No open item, service or rideshare requests."
@@ -2004,7 +2004,7 @@ en-NZ:
       add_listing_link_text: "Add new listing"
       open_listing: "open listing"
       open_listings: "open listings"
-      private_listing_notification_log_in: "log in"
+      private_listing_notification_log_in: "login"
       is: is
       are: are
       what_do_you_need: "What are you looking for?"
@@ -2129,7 +2129,7 @@ en-NZ:
       admin: Admin
       go_to_your_profile_page: Profile
       hi: Hi
-      login: "Log in"
+      login: "login"
       logout: "Log out"
       notifications: Notifications
       requests: "Friend requests"
@@ -2160,7 +2160,7 @@ en-NZ:
       admin: Admin
       go_to_your_profile_page: Profile
       hi: Hi
-      login: "Log in"
+      login: "login"
       logout: "Log out"
       notifications: Notifications
       requests: "Friend requests"
@@ -2197,7 +2197,7 @@ en-NZ:
       invitation_sent: "Invitation sent successfully"
       invitation_successfully_unsubscribed: "Successfully unsubscribed from invitation emails"
       inviting_new_users_is_not_allowed_in_this_community: "Inviting new users is not allowed."
-      login_again: "Please log in again."
+      login_again: "Please login again."
       login_failed: "Login failed. Please enter the correct credentials."
       account_creation_successful: "Welcome to %{service_name}, %{person_name}!"
       account_deleted: "Your account is now deleted."
@@ -2262,21 +2262,21 @@ en-NZ:
       you_have_already_given_feedback_about_this_event: "You have already given feedback about this event"
       you_are_now_member: "Welcome to %{service_name}!"
       you_are_already_member: "You are already a member of %{service_name}. Welcome back!"
-      you_must_log_in_to_create_new_listing: "You must log in to %{service_name} to create a new listing. If you don't have an account you can %{sign_up_link}."
+      you_must_log_in_to_create_new_listing: "You must login to %{service_name} to create a new listing. If you don't have an account you can %{sign_up_link}."
       additional_email_confirmed_dashboard: "Your email is now confirmed."
-      you_must_log_in_to_give_feedback: "You must log in to give feedback"
-      you_must_log_in_to_invite_new_users: "You must log in to invite new users to %{service_name}"
-      you_must_log_in_to_send_a_comment: "You must log in to send a new comment"
-      you_must_log_in_to_send_a_message: "You must log in to %{service_name} to send a message to another user."
-      you_must_log_in_to_do_a_transaction: "You must log in to %{service_name} to do a transaction."
-      you_must_log_in_to_view_this_content: "You must log in to view this content"
-      you_must_log_in_to_view_this_page: "You must log in to view this page"
-      you_must_log_in_to_view_your_inbox: "You must log in to %{service_name} to view your inbox."
-      you_must_log_in_to_view_your_settings: "You must log in to %{service_name} to view your settings."
-      you_must_log_in_to_add_news_item: "You must log in to %{service_name} to add a new article."
-      you_must_log_in_to_change_profile_settings: "You must log in to %{service_name} to change profile settings"
-      you_must_log_in_to_accept_or_reject: "You must log in to accept or reject the transaction"
-      you_must_log_in_to_confirm_or_cancel: "You must log in to cancel or confirm the transaction"
+      you_must_log_in_to_give_feedback: "You must login to give feedback"
+      you_must_log_in_to_invite_new_users: "You must login to invite new users to %{service_name}"
+      you_must_log_in_to_send_a_comment: "You must login to send a new comment"
+      you_must_log_in_to_send_a_message: "You must login to %{service_name} to send a message to another user."
+      you_must_log_in_to_do_a_transaction: "You must login to %{service_name} to do a transaction."
+      you_must_log_in_to_view_this_content: "You must login to view this content"
+      you_must_log_in_to_view_this_page: "You must login to view this page"
+      you_must_log_in_to_view_your_inbox: "You must login to %{service_name} to view your inbox."
+      you_must_log_in_to_view_your_settings: "You must login to %{service_name} to view your settings."
+      you_must_log_in_to_add_news_item: "You must login to %{service_name} to add a new article."
+      you_must_log_in_to_change_profile_settings: "You must login to %{service_name} to change profile settings"
+      you_must_log_in_to_accept_or_reject: "You must login to accept or reject the transaction"
+      you_must_log_in_to_confirm_or_cancel: "You must login to cancel or confirm the transaction"
       you_need_to_confirm_your_account_first: "You need to confirm your email."
       you_must_fill_all_the_fields: "You must fill all the fields"
       you_unfollowed_listing: "You are no longer following this listing"
@@ -2291,7 +2291,7 @@ en-NZ:
         zero: "The website will now go offline for maintenance"
         one: "The website will be offline for maintenance in %{count} minute"
         other: "The website will be offline for maintenance in %{count} minutes"
-      automatically_logged_out_please_sign_in: "You have been automatically logged out. Please log in again."
+      automatically_logged_out_please_sign_in: "You have been automatically logged out. Please login again."
       stripe_you_account_balance_is_not_0: ~
       stripe_balance_for_username_is_not_0: ~
       visit_admin: ~
@@ -2319,7 +2319,7 @@ en-NZ:
       are_you_sure: "Are you sure you want to delete the comment?"
     comment_form:
       ask_a_question: "Comment on the listing or ask for more details. All the other users will be able to see your comment."
-      log_in: "log in"
+      log_in: "login"
       send_comment: "Send comment"
       to_send_a_comment: "to send a new comment."
       write_comment: "Write a new comment:"
@@ -2651,7 +2651,7 @@ en-NZ:
     paypal_receive_funds_info_label: "Your PayPal account needs to be able to accept payments. This might require a Business account."
     paypal_receive_funds_info_australia_only: "If you see an error when trying to connect your account to %{service_name}, either %{upgrade_paypal_account_link}, or (if you are an individual), create a new Premier account. Both account types are completely free."
     paypal_receive_funds_info: "If you see an error when trying to connect your account to %{service_name}, %{upgrade_paypal_account_link}. It's free and easy. If you're an individual, PayPal recommends using your name as the Business name."
-    upgrade_paypal_account_link_text: "log in and upgrade your PayPal account to a business account"
+    upgrade_paypal_account_link_text: "login and upgrade your PayPal account to a business account"
     admin_account_not_connected: "Using %{service_name}'s payment system in order to receive payments is not possible since payments have not been set up. Please %{contact_admin_link} for details."
     contact_admin_link_text: "contact the %{service_name} team"
     you_are_ready_to_accept_payments: "You are ready to accept payments!"
@@ -2666,12 +2666,12 @@ en-NZ:
       paypal_account_email_placeholder: "Your PayPal email address"
       paypal_account_email_info_text: "If you don't have a PayPal account, you can create one by %{create_paypal_account}. If you get an error message when connecting your PayPal account, upgrade your PayPal account to a business account. Upgrading is free and easy. If you are an individual, you can use your first and last name as your \"business name\". To upgrade your account, %{upgrade_paypal_account} and find the upgrade link."
       create_paypal_account: "clicking here"
-      upgrade_paypal_account: "log in to your PayPal account"
+      upgrade_paypal_account: "login to your PayPal account"
       paypal_account_billing_agreement: "Grant %{service_name} permission to charge a transaction fee"
       follow_steps: "Follow the steps below to start receiving funds:"
       connect_paypal_account_title: "Connect your PayPal account"
       connect_paypal_account_title_with_step: "Step %{current_step}/%{total_steps}: Connect your PayPal account"
-      connect_paypal_account_instructions: "Click on the button below to log in to PayPal and connect your PayPal account with %{service_name}."
+      connect_paypal_account_instructions: "Click on the button below to login to PayPal and connect your PayPal account with %{service_name}."
       connect_paypal_account: "Connect your PayPal account"
       paypal_account_billing_agreement_with_step: "Step %{current_step}/%{total_steps}: Grant permission to charge a transaction fee"
       paypal_account_billing_agreement_info_both: "After you make a sale on %{service_name}, a service fee (%{commission_from_seller} of the total item price, excluding shipping, minimum fee %{minimum_commission}) will be charged from your PayPal account. Permission to do this is required in order to accept payments in %{service_name}. The fee does not include %{paypal_info_link}."
@@ -2689,7 +2689,7 @@ en-NZ:
       billing_agreement_wrong_account: "PayPal accounts did not match. Please use the same PayPal account that you connected in the first step."
       something_went_wrong: "Something went wrong. Please try again. If the problem persists, please contact the %{service_name} team."
       account_not_verified: "You have not verified your PayPal account. You need to go to paypal.com and verify your account before you can continue."
-      account_restricted: "Your PayPal account is restricted and cannot be connected. Please log in to paypal.com to find out more or get in touch with PayPal customer support to resolve the issue."
+      account_restricted: "Your PayPal account is restricted and cannot be connected. Please login to paypal.com to find out more or get in touch with PayPal customer support to resolve the issue."
     paypal_account_connected_title: "PayPal account connected"
     paypal_account_connected: "The PayPal account <%{email}> has been connected with %{service_name}."
     change_account: "Change PayPal account"
@@ -2809,11 +2809,11 @@ en-NZ:
     new:
       create_new_account: "Create a new account"
       i_forgot_my_password: "Forgot username or password"
-      login: "Log in"
-      login_to_kassi: "Log in to %{service_name}"
+      login: "login"
+      login_to_kassi: "Login to %{service_name}"
       connect_your_facebook_to_kassi: "Connect your Facebook account to %{service_name}"
       facebook_account: "Facebook account:"
-      log_in_to_link_account: "If you already have a %{service_name} account, log in to link it with your Facebook account."
+      log_in_to_link_account: "If you already have a %{service_name} account, login to link it with your Facebook account."
       you_can_also_create_new_account: "If you don't have an account in %{service_name}, %{accont_creation_link} to create one with your Facebook login."
       account_creation_link_text: "click here"
       cancle_facebook_connect: "If you don't want to link this account, you can %{cancel_link}."
@@ -2894,7 +2894,7 @@ en-NZ:
       settings_link: settings
       homepage_link: homepage
       unsubscribe_unsuccesful: "Error in unsubscribing"
-      unsuccessful_unsubscribe_info_text: "The unsubscribe link has expired. Log in to change your email subscription settings."
+      unsuccessful_unsubscribe_info_text: "The unsubscribe link has expired. Login to change your email subscription settings."
     profile:
       about_you: "About you"
       city: City
@@ -3133,7 +3133,7 @@ en-NZ:
       manage_listings: "Manage listings"
       settings: Settings
       logout: "Log out"
-      login: "Log in"
+      login: "Login"
       signup: "Sign up"
       admin_dashboard: "Admin dashboard"
       language: Language

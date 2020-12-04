@@ -403,15 +403,15 @@ module CustomLandingPage
         {"label": "About", "href": {"type": "path", "id": "about"}},
         {"label": "How to use?", "href": {"type": "path", "id": "how_to_use"}},
         {"label": "Terms", "href": {"type": "path", "id": "terms"}},
-        {"label": "Privary", "href": {"type": "path", "id": "privacy"}}
+        {"label": "Privacy", "href": {"type": "path", "id": "privacy"}}
       ],
       "social": [
         {"service": "facebook", "url": "https://www.facebook.com/Sharetribe/"},
         {"service": "twitter", "url": "https://twitter.com/sharetribe"},
-        {"service": "instagram", "url": "https://www.instagram.com/"},
-        {"service": "linkedin", "url": "https://www.linkedin.com/"}
+        {"service": "instagram", "url": "https://www.instagram.com/philanthropyforward/"},
+        {"service": "linkedin", "url": "https://www.linkedin.com/company/philanthropy-forward/"}
       ],
-      "copyright": "Copyright Marketplace Ltd 2016"
+      "copyright": "copyright to Philanthropy Forward, LLC"
     }
   ],
 

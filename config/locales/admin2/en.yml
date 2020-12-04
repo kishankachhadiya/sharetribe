@@ -194,7 +194,7 @@ en:
       enable_paypal_fee: 'To collect a commission using PayPal, you must <a href="%{url}">enable PayPal</a> again on your marketplace.'
       first_connect_paypal: 'To collect a commission using PayPal, you must first <a href="%{url}">connect your PayPal account</a> with your marketplace.'
       first_enable_paypal: 'To collect a commission using PayPal fees, you must first <a href="%{url}">enable PayPal</a> again on your marketplace.'
-      login_to: 'Log in to PayPal and connect your PayPal account with your marketplace.'
+      login_to: 'Login to PayPal and connect your PayPal account with your marketplace.'
       connect_paypal: 'Connect PayPal'
       redirect_message: "Redirecting you to PayPal. If nothing happens, click %{redirect_link}."
       redirect_link_text: 'here'
@@ -1065,7 +1065,7 @@ en:
       facebook_info_text: 'To enable Facebook Login, you must create a Facebook application for your marketplace in the <a target="_blank" class="external-link" href="%{href}">Facebook Developers Dashboard</a>. You will get a generated App ID and App Secret. Copy and paste them below. <a target="_blank" class="external-link" href="%{href2}">See instructions for configuring Facebook Login</a>.'
       facebook_connect_id: 'Facebook App ID'
       facebook_connect_secret: 'Facebook App Secret'
-      facebook_connect_enabled: 'Users can sign up and log in with their Facebook account'
+      facebook_connect_enabled: 'Users can sign up and login with their Facebook account'
       linkedin: 'LinkedIn'
       linkedin_connect_id: 'LinkedIn Client ID'
       linkedin_connect_secret: 'LinkedIn Client Secret'
@@ -1109,7 +1109,7 @@ en:
     privacy:
       private_marketplace: 'Private marketplace'
       header: 'Private marketplace landing page content'
-      private: 'Make marketplace private (users must log in to browse listings and user profiles)'
+      private: 'Make marketplace private (users must login to browse listings and user profiles)'
       info_text: 'This content is shown on your marketplace homepage to users who are not logged in. Here, you can describe your marketplace and the process to join it.'
       small_text: 'This is the content for %{language}. To view and edit the content in other languages, change the language from the top bar.'
     essentials:

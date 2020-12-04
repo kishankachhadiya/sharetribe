@@ -1,4 +1,4 @@
-<h2>Log in</h2>
+<h2>Login</h2>
 
 <% if person_signed_in? %>
   You are logged in as <%= current_person.email %>. <%= link_to "Log out", people_sign_out_path, :method => :delete %>.
@@ -19,7 +19,7 @@
     <div><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>
   <% end -%>
 
-  <div><%= f.submit "Log in" %></div>
+  <div><%= f.submit "Login" %></div>
 <% end %>
 
 <%= render :partial => "devise/shared/links" %>

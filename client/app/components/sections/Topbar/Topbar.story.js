@@ -144,7 +144,7 @@ const noLoginLinks = (component) => {
 
 const hasLoginLinks = (component) => {
   it('should contain login and signup links', () => {
-    expect(component.text()).to.contain('Log in');
+    expect(component.text()).to.contain('Login');
     expect(component.text()).to.contain('Sign up');
   });
   it('shouldn\'t contain logout link', () => {

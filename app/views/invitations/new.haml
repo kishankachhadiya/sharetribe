@@ -19,3 +19,5 @@
     = f.label :message, t("homepage.invitation_form.message")
     = f.text_area :message, :class => "invitation_message_text", :placeholder => t("homepage.invitation_form.invitation_message_field_placeholder")
     = f.button t("homepage.invitation_form.send_invitation")
+    = social_share_button_tag("Sharetrib", :allow_sites => %w(twitter facebook))
+
