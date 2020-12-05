@@ -56,8 +56,8 @@ module CustomLandingPage
         "category_color_hover": {"type": "marketplace_data", "id": "primary_color"},
         "categories": [
             {
-                "category": { "type": "category", "id": 1 },
-                "background_image": {"type": "assets", "id": "adv_background"}
+                "category": { "type": "category", "id": 23 },
+                "background_image": {"type": "assets", "id": "fundraising_background"}
             },
             {
                 "category": { "type": "category", "id": 18 },
@@ -80,8 +80,8 @@ module CustomLandingPage
                 "background_image": {"type": "assets", "id": "leadership_background"}
             },
             {
-                "category": { "type": "category", "id": 23 },
-                "background_image": {"type": "assets", "id": "fundraising_background"}
+                "category": { "type": "category", "id": 1 },
+                "background_image": {"type": "assets", "id": "adv_background"}
             }
         ]
     },
@@ -406,8 +406,7 @@ module CustomLandingPage
         {"label": "Privacy", "href": {"type": "path", "id": "privacy"}}
       ],
       "social": [
-        {"service": "facebook", "url": "https://www.facebook.com/Sharetribe/"},
-        {"service": "twitter", "url": "https://twitter.com/sharetribe"},
+        {"service": "twitter", "url": "https://twitter.com/philanforward"},
         {"service": "instagram", "url": "https://www.instagram.com/philanthropyforward/"},
         {"service": "linkedin", "url": "https://www.linkedin.com/company/philanthropy-forward/"}
       ],

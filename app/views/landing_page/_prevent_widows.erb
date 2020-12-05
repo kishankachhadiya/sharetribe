@@ -6,6 +6,11 @@
   (splitted + ["<span style=\"white-space: nowrap\">#{last_two.join(" ")}</span>"]).join(" ").html_safe
 %>
 <div style="margin-top: 30px">
-  <button class="hero_custom_btn">Hire Talent</button>
-  <button class="hero_custom_btn">Find Jobs</button>
+  <% if @user.nil? %>
+    <%= link_to "signup", class: "hero_custom_btn" do %>Hire Talent<% end %>
+    <%= link_to "/login", class: "hero_custom_btn" do %>Find Jobs<% end %>
+  <% else %>
+    <%= link_to "listings/new", class: "hero_custom_btn" do %>Hire Talent<% end %>
+    <%= link_to "/s", class: "hero_custom_btn" do %>Find Jobs<% end %>
+  <% end %>
 </div>
