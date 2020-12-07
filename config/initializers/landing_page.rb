@@ -103,12 +103,6 @@ module CustomLandingPage
         "no_listing_image_text": {"type": "translation", "id": "no_listing_image"},
         "author_name_color_hover": {"type": "marketplace_data", "id": "primary_color"},
         "listings": [ 
-          {
-                "listing": { "type": "listing", "id": 1 }
-          }, 
-          {
-                "listing": { "type": "listing", "id": 2}
-          }
         ]
 
     },

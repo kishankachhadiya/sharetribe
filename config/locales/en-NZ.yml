@@ -2007,7 +2007,7 @@ en-NZ:
       private_listing_notification_log_in: "login"
       is: is
       are: are
-      what_do_you_need: "What are you looking for?"
+      what_do_you_need: "Search Philanthropy Forward"
       post_new_listing: "Post a new listing"
       are_offering: offer
       add_news_item: "Add an article"
@@ -2077,7 +2077,7 @@ en-NZ:
     hero:
       search: Search
       signup: "Sign up"
-      search_placeholder: "What are you looking for?"
+      search_placeholder: "Search Philanthropy Forward"
       search_location_placeholder: Location
     listings:
       no_listing_image: "No picture"
