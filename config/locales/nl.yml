@@ -2824,7 +2824,7 @@ nl:
       account_creation_link_text: "klik hier"
       cancle_facebook_connect: "Klik %{cancel_link} als je niet wilt linken met dit account."
       facebook_cancel_link_text: annuleer
-      log_in_with_your_provider_account: "Log in met %{provider}"
+      log_in_with_your_provider_account: "Login met %{provider}"
       or_sign_up_with_your_username: "... of met uw e-mail adres"
       we_will_not_post_without_asking_you: "We zullen nooit iets op Facebook zetten zonder jouw toestemming."
     password_forgotten:

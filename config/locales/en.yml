@@ -2821,7 +2821,7 @@ en:
       account_creation_link_text: "click here"
       cancle_facebook_connect: "If you don't want to link this account, you can %{cancel_link}."
       facebook_cancel_link_text: cancel
-      log_in_with_your_provider_account: "Log in with %{provider}"
+      log_in_with_your_provider_account: "Login with %{provider}"
       or_sign_up_with_your_username: "...or with your email:"
       we_will_not_post_without_asking_you: "We will never post to Facebook without asking you."
     password_forgotten:
