@@ -7,8 +7,8 @@
 %>
 <div style="margin-top: 30px">
   <% if @user.nil? %>
-    <%= link_to "signup", class: "hero_custom_btn" do %>Hire Talent<% end %>
-    <%= link_to "/login", class: "hero_custom_btn" do %>Find Jobs<% end %>
+    <%= link_to "/login", class: "hero_custom_btn" do %>Hire Talent<% end %>
+    <%= link_to "signup", class: "hero_custom_btn" do %>Find Jobs<% end %>
   <% else %>
     <%= link_to "listings/new", class: "hero_custom_btn" do %>Hire Talent<% end %>
     <%= link_to "/s", class: "hero_custom_btn" do %>Find Jobs<% end %>
