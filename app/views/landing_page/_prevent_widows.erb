@@ -8,9 +8,9 @@
 <div style="margin-top: 30px">
   <% if @user.nil? %>
     <%= link_to "/login", class: "hero_custom_btn" do %>Hire Talent<% end %>
-    <%= link_to "signup", class: "hero_custom_btn" do %>Find Jobs<% end %>
+    <%= link_to "signup", class: "hero_custom_btn" do %>Share Talent<% end %>
   <% else %>
-    <%= link_to "listings/new", class: "hero_custom_btn" do %>Hire Talent<% end %>
-    <%= link_to "/s", class: "hero_custom_btn" do %>Find Jobs<% end %>
+    <%= link_to person_settings_path(person_id: @user.username), class: "hero_custom_btn" do %>Hire Talent<% end %>
+    <%= link_to new_listing_path, class: "hero_custom_btn" do %>Share Talent<% end %>
   <% end %>
 </div>
